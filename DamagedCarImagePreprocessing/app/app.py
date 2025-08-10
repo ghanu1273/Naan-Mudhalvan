@@ -5,7 +5,6 @@ from PIL import Image
 import os
 
 st.title("Damaged Car Image Preprocessing App")
-
 uploaded_file = st.file_uploader("Choose a damaged car image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
